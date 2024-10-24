@@ -2,5 +2,11 @@
 Practice repo for OESC Python class
 
 Students are:
-Jane
+Chris
+Gary
+John
 Judy
+Nahid
+Tom
+Judy
+JohnV
