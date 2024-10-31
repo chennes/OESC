@@ -1,0 +1,4 @@
+apple,100
+banana,25
+orange,42
+grape,10000
