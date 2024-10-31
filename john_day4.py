@@ -10,7 +10,19 @@ inventory = {
 # for fruit in inventory:
 #     print(fruit)
 
-print("Store inventory list")
+f = open("john_day4.txt", "w", encoding ='utf-8')
+f.write("Store inventory list\n\n")
+f.close()
+f = open("john_day4.txt", "a", encoding ='utf-8')
 for k, v in inventory.items():
-    print(f"{k}: {v}")
-    
+    f.write(str(k) + ": " + str(v) + "\n")
+f.close()
+
+try:
+    with open("john_day3.txt", "r", encoding = 'utf-8') as f:
+        contents = f.read()
+        print(contents)
+except OSError as e:
+    print(f"{e}")
+finally:
+    exit()
