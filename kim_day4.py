@@ -1,5 +1,5 @@
 inventory = {
-    "apple" : 100,
+    "apple" : 100,    #I like apples
     "banana" : 25,
     "orange" : 42,
     "grape" : 10000
